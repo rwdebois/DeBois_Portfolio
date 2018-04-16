@@ -1,0 +1,56 @@
+h1 {
+    font-family: sans-serif;
+    display:flex;
+    justify-content: center;    
+}
+
+body {
+	font-family: cursive;
+    justify-content: center
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+	display:inline;
+	float:left;
+}
+li a {
+    display: block;
+    padding-right: 20px;
+}
+img {
+    border-radius: 8px;
+    max-width: 100px;
+    box-shadow: 5px 10px;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+#images {
+	width:900px;
+	margin-top:50px;
+	margin-bottom:20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+	li {
+		display:block;
+		float:none;
+	}
+	#images {
+
+	}
+    #images a {
+    	display:block;
+    	float:none;
+    	clear:right;
+    	margin-bottom:20px;
+
+    }
+}
